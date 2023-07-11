@@ -1,0 +1,45 @@
+/* Global Styles  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Button style  */
+
+.btn-primary {
+    padding: 20px 45px;
+    border-radius: 8px;
+    color: white;
+    background-color: #E55473;
+    border: 0px;
+}
+
+/* Hero section  */
+
+.container {
+    background-color: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.hero-title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.hero-desc {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
