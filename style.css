@@ -26,12 +26,15 @@ body {
 
 /* Hero Section  */
 
-.header-container {
+.header {
     background-color: #E554731A;
+}
+.header-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0px 100px;
+    justify-content: space-between;
+    padding: 30px 100px;
+
 }
 
 .hero-title {
@@ -45,19 +48,24 @@ body {
     font-size: 21px;
     font-weight: 400;
     line-height: 30px;
-    margin: 32px 0px;
+    margin-bottom: 32px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 800px;
 }
 
 /* Feature Section  */
 
 .feature-section {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
 }
 
 .feature-info {
     text-align: center;
-    padding: 50px;
+    margin: 100px 50px;
 }
 
 .feature-img {
@@ -66,25 +74,33 @@ body {
 }
 
 .img-bg {
-    width: 350px;
+    width: 350px;   
 }
 
-.img-bg a{
-    text-align: center;
-    display: block;
-}
 
 .bg-img-radius {
     border-radius: 300px 300px 0px 0px;
     padding: 30px 30px 0px 30px;
     display: flex;
-    vertical-align: center;
     margin-right: 20px;
-    background: #A7216226;
     height: 370px;
 }
 
-.img-bg a {
+.img-color-1 {
+    background-color:#A7216226;
+}
+
+.img-color-2 {
+    background-color: #0597A026;
+}
+
+.img-color-3 {
+    background-color: #477D1126;
+}
+
+.img-bg a{
+    text-align: center;
+    display: block;
     font-size: 24px;
     color: black;
     margin-top: 20px;
@@ -160,11 +176,10 @@ body {
     padding-bottom: 100px;
 }
 .newsletter-container {
-    width: 80%;
-    margin: 0 auto;
-    background: url('../images/Rectangle 9.png');
-    padding-bottom: 100px;
-    padding-top: 100px;
+    background: url("../images/Rectangle 9.png");
+    width: 60%;
+    margin: auto;
+    padding: 100px;
     border-radius: 8px;
 
 }
@@ -186,6 +201,25 @@ body {
 
 /* Footer Section  */
 
+.footer{
+    padding: 50px 0px;
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-container{
+    width: 40%;
+    margin: 0 auto;
+}
+.footer-title, .footer-desc, .copyright{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+}
 
 
 
