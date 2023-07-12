@@ -9,6 +9,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.text-color {
+    color: #E55473;
+}
+
 /* Button Styles  */
 
 .btn-primary {
@@ -103,3 +107,47 @@ body {
     font-weight: 600;
     line-height: 35px;
 }
+
+/* CALL TO ACTION Section  */
+.cta {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.cta-container {
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta-title, .cta-desc {
+    margin: 50px;
+}
+
+/* Instagram Section  */
+
+.instagram {
+    margin: 100px 0px;
+}
+
+.instagram-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.img-gallery > img {
+    width: 350px;
+    height: 400px;
+}
+
